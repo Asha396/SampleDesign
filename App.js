@@ -177,16 +177,12 @@ class App extends Component {
               </Text>
 			  </View>
 			  <View style={{flexDirection: 'row', alignItems: 'center'}}>
-	<View style={[styles.reviewImageView, {position: 'absolute', right: 80, zIndex: 0, backgroundColor: 'brown'}]} />
-			  <View style={[styles.reviewImageView, {position: 'absolute', right: 60, backgroundColor: colors.blue,
-				  zIndex:1}]} />
+				<View style={[styles.reviewImageView, {position: 'absolute', right: 80, zIndex: 0, backgroundColor: 'brown'}]} />
+			  <View style={[styles.reviewImageView, {position: 'absolute', right: 60, backgroundColor: colors.blue, zIndex:1}]} />
 			  <View style={[styles.reviewImageView, {position: 'absolute', right: 40, backgroundColor: colors.red, zIndex: 2}]} />
 			  <View style={[styles.reviewImageView, {position: 'absolute', right: 20, backgroundColor: 'pink', zIndex:3}]} />
-	<View style={[styles.reviewImageView, {zIndex: 4, backgroundColor: 'orange'}]} >
-			  
-			  <Text style={{fontFamily: 'Montserrat-Bold', fontSize: 14, color: colors.white}}>
-                +35
-              </Text>
+			<View style={[styles.reviewImageView, {zIndex: 4, backgroundColor: 'orange'}]} >
+			  <Text style={{fontFamily: 'Montserrat-Bold', fontSize: 14, color: colors.white}}>+35</Text>
 			  </View>
 			  </View>
 		  </View>
